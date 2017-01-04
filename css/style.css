@@ -6,16 +6,16 @@ a {
   text-decoration: none; }
 
 .wrapper {
-  background: #ececec;
+  background: #e1e1e1;
   margin: 0 auto;
   padding: 0;
   width: 1024px;
   background-size: 100% 100%; }
   .wrapper header {
-    background: black;
-    min-height: 70px; }
+    background: url("../img/doves-banner.jpg");
+    height: 200px; }
   .wrapper nav {
-    background: blue;
+    background: #A9F906;
     height: 40px; }
     .wrapper nav .ul-menu .list-menu {
       position: relative;
@@ -31,8 +31,11 @@ a {
       font-size: 20px;
       background: green;
       cursor: pointer; }
+      .wrapper nav .ul-menu .list-menu a {
+        color: #fff; }
       .wrapper nav .ul-menu .list-menu:hover {
         background: cadetblue;
+        border-bottom: 1px solid #fff;
         transition: 0.4s; }
         .wrapper nav .ul-menu .list-menu:hover .ul-menu-child {
           display: block; }
@@ -51,10 +54,16 @@ a {
             background: cadetblue;
             transition: 0.5s; }
   .wrapper article {
-    background: gray;
+    background: #e1e1e1;
     min-height: 500px; }
   .wrapper footer {
     background: darkslategrey;
     min-height: 70px; }
+    .wrapper footer .box-footer {
+      width: 33.33%;
+      float: left; }
+      .wrapper footer .box-footer ul li {
+        list-style-type: none;
+        text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
