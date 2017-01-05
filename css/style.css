@@ -35,10 +35,10 @@ a {
         color: #fff; }
       .wrapper nav .ul-menu .list-menu:hover {
         background: cadetblue;
-        border-bottom: 1px solid #fff;
         transition: 0.4s; }
         .wrapper nav .ul-menu .list-menu:hover .ul-menu-child {
-          display: block; }
+          display: block;
+          z-index: 1; }
       .wrapper nav .ul-menu .list-menu .ul-menu-child {
         display: none;
         position: absolute;
@@ -56,6 +56,35 @@ a {
   .wrapper article {
     background: #e1e1e1;
     min-height: 500px; }
+    .wrapper article .random-number .result-random {
+      font-size: 100px;
+      color: #333333;
+      height: 100px; }
+    .wrapper article .random-number .btn-random {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer; }
+    .wrapper article .img-cut .img_facebook {
+      display: block;
+      width: 191px;
+      height: 120px;
+      background-image: url("../images/fb.png");
+      background-repeat: no-repeat; }
+    .wrapper article .img-cut .logo {
+      width: 191px;
+      height: 90px; }
+    .wrapper article .img-cut .icon {
+      width: 16px;
+      height: 18px;
+      background-position: -55px -90px; }
   .wrapper footer {
     background: darkslategrey;
     min-height: 70px; }

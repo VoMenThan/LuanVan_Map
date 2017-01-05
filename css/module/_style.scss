@@ -38,10 +38,10 @@ a{
         }
         &:hover{
           background: cadetblue;
-          border-bottom: 1px solid #fff;
           transition: 0.4s;
           .ul-menu-child{
             display: block;
+            z-index:1;
           }
         }
         .ul-menu-child{
@@ -67,6 +67,44 @@ a{
   article{
     background: #e1e1e1;
     min-height: 500px;
+    .random-number{
+      .result-random{
+        font-size: 100px;
+        color: #333333;
+        height: 100px;
+      }
+      .btn-random{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    }
+    .img-cut{
+      .img_facebook{
+          display:block;
+          width: 191px;
+          height:120px;
+          background-image: url('../images/fb.png');
+          background-repeat: no-repeat;
+      }
+      .logo{
+        width: 191px;
+        height: 90px;
+      }
+      .icon{
+        width:16px;
+        height:18px;
+        background-position: -55px -90px;
+      }
+    }
   }
   footer{
     background: darkslategrey;
