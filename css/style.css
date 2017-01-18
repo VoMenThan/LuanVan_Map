@@ -85,6 +85,8 @@ a {
       width: 16px;
       height: 18px;
       background-position: -55px -90px; }
+    .wrapper article .box .hid {
+      display: none; }
   .wrapper footer {
     background: darkslategrey;
     min-height: 70px; }
