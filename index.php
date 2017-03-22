@@ -47,7 +47,7 @@
         <div class="box__error hid">Error! <span></span>.</div>
     </form>
 <!--end drag drop file-->
-
+<div class="thanupdate"></div>
 
 
 
